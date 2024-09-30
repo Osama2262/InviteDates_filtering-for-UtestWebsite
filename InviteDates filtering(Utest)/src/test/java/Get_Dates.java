@@ -16,7 +16,7 @@ public class Get_Dates {
         Thread.sleep(1000);
         //** Login Phase **
         driver.findElement(By.linkText("Log In")).click();
-        driver.findElement(By.id("username")).sendKeys("Your email");
+        driver.findElement(By.id("username")).sendKeys("YourEmail");
         Thread.sleep(1000);
         driver.findElement(By.id("password")).sendKeys("YourPassword");
         driver.findElement(By.id("rememberMe")).click();
